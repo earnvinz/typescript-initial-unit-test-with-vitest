@@ -1,0 +1,20 @@
+{
+	"name": "nodejs-unit-test",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx vitest",
+		"test:unit": "npx vitest test/unit-test"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^24.3.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.2",
+		"vite": "^4.4.9",
+		"vitest": "^0.34.6"
+	}
+}
